@@ -1,0 +1,20 @@
+{
+  "name": "reactor",
+  "version": "0.0.0",
+  "description": "playground for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server  --inline --debug --devtool eval --hot --content-base src"
+  },
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
+  }
+}
